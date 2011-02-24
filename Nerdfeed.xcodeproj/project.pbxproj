@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C11591E1316FF1E007EA288 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C11591D1316FF1E007EA288 /* UIKit.framework */; };
+		1C1159201316FF1E007EA288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C11591F1316FF1E007EA288 /* Foundation.framework */; };
+		1C1159221316FF1E007EA288 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1159211316FF1E007EA288 /* CoreGraphics.framework */; };
+		1C1159281316FF1E007EA288 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C1159261316FF1E007EA288 /* InfoPlist.strings */; };
+		1C11592B1316FF1E007EA288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11592A1316FF1E007EA288 /* main.m */; };
+		1C11592E1316FF1E007EA288 /* NerdfeedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11592D1316FF1E007EA288 /* NerdfeedAppDelegate.m */; };
+		1C1159311316FF1E007EA288 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C11592F1316FF1E007EA288 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C1159191316FF1E007EA288 /* Nerdfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nerdfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C11591D1316FF1E007EA288 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C11591F1316FF1E007EA288 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C1159211316FF1E007EA288 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C1159251316FF1E007EA288 /* Nerdfeed-Info.plist */ = {isa = PBXFileReference; path = "Nerdfeed-Info.plist"; sourceTree = "<group>"; };
+		1C1159271316FF1E007EA288 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C1159291316FF1E007EA288 /* Nerdfeed-Prefix.pch */ = {isa = PBXFileReference; path = "Nerdfeed-Prefix.pch"; sourceTree = "<group>"; };
+		1C11592A1316FF1E007EA288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C11592C1316FF1E007EA288 /* NerdfeedAppDelegate.h */ = {isa = PBXFileReference; path = NerdfeedAppDelegate.h; sourceTree = "<group>"; };
+		1C11592D1316FF1E007EA288 /* NerdfeedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdfeedAppDelegate.m; sourceTree = "<group>"; };
+		1C1159301316FF1E007EA288 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1159161316FF1E007EA288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C11591E1316FF1E007EA288 /* UIKit.framework in Frameworks */,
+				1C1159201316FF1E007EA288 /* Foundation.framework in Frameworks */,
+				1C1159221316FF1E007EA288 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C11590E1316FF1E007EA288 = {
+			isa = PBXGroup;
+			children = (
+				1C1159231316FF1E007EA288 /* Nerdfeed */,
+				1C11591C1316FF1E007EA288 /* Frameworks */,
+				1C11591A1316FF1E007EA288 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C11591A1316FF1E007EA288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C1159191316FF1E007EA288 /* Nerdfeed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C11591C1316FF1E007EA288 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C11591D1316FF1E007EA288 /* UIKit.framework */,
+				1C11591F1316FF1E007EA288 /* Foundation.framework */,
+				1C1159211316FF1E007EA288 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C1159231316FF1E007EA288 /* Nerdfeed */ = {
+			isa = PBXGroup;
+			children = (
+				1C11592C1316FF1E007EA288 /* NerdfeedAppDelegate.h */,
+				1C11592D1316FF1E007EA288 /* NerdfeedAppDelegate.m */,
+				1C11592F1316FF1E007EA288 /* MainWindow.xib */,
+				1C1159241316FF1E007EA288 /* Supporting Files */,
+			);
+			path = Nerdfeed;
+			sourceTree = "<group>";
+		};
+		1C1159241316FF1E007EA288 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C1159251316FF1E007EA288 /* Nerdfeed-Info.plist */,
+				1C1159261316FF1E007EA288 /* InfoPlist.strings */,
+				1C1159291316FF1E007EA288 /* Nerdfeed-Prefix.pch */,
+				1C11592A1316FF1E007EA288 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C1159181316FF1E007EA288 /* Nerdfeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1159341316FF1E007EA288 /* Build configuration list for PBXNativeTarget "Nerdfeed" */;
+			buildPhases = (
+				1C1159151316FF1E007EA288 /* Sources */,
+				1C1159161316FF1E007EA288 /* Frameworks */,
+				1C1159171316FF1E007EA288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nerdfeed;
+			productName = Nerdfeed;
+			productReference = 1C1159191316FF1E007EA288 /* Nerdfeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C1159101316FF1E007EA288 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "J 2 Consulting, LLC";
+			};
+			buildConfigurationList = 1C1159131316FF1E007EA288 /* Build configuration list for PBXProject "Nerdfeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C11590E1316FF1E007EA288;
+			productRefGroup = 1C11591A1316FF1E007EA288 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C1159181316FF1E007EA288 /* Nerdfeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C1159171316FF1E007EA288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1159281316FF1E007EA288 /* InfoPlist.strings in Resources */,
+				1C1159311316FF1E007EA288 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C1159151316FF1E007EA288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C11592B1316FF1E007EA288 /* main.m in Sources */,
+				1C11592E1316FF1E007EA288 /* NerdfeedAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C1159261316FF1E007EA288 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C1159271316FF1E007EA288 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C11592F1316FF1E007EA288 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C1159301316FF1E007EA288 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C1159321316FF1E007EA288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1C1159331316FF1E007EA288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		1C1159351316FF1E007EA288 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nerdfeed/Nerdfeed-Prefix.pch";
+				INFOPLIST_FILE = "Nerdfeed/Nerdfeed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C1159361316FF1E007EA288 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nerdfeed/Nerdfeed-Prefix.pch";
+				INFOPLIST_FILE = "Nerdfeed/Nerdfeed-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C1159131316FF1E007EA288 /* Build configuration list for PBXProject "Nerdfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1159321316FF1E007EA288 /* Debug */,
+				1C1159331316FF1E007EA288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1159341316FF1E007EA288 /* Build configuration list for PBXNativeTarget "Nerdfeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1159351316FF1E007EA288 /* Debug */,
+				1C1159361316FF1E007EA288 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C1159101316FF1E007EA288 /* Project object */;
+}
