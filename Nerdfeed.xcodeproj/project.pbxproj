@@ -14,6 +14,11 @@
 		1C11592B1316FF1E007EA288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11592A1316FF1E007EA288 /* main.m */; };
 		1C11592E1316FF1E007EA288 /* NerdfeedAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11592D1316FF1E007EA288 /* NerdfeedAppDelegate.m */; };
 		1C1159311316FF1E007EA288 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C11592F1316FF1E007EA288 /* MainWindow.xib */; };
+		1C11593C13170BBE007EA288 /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11593B13170BBE007EA288 /* RSSChannel.m */; };
+		1C11593F131715DC007EA288 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11593E131715DC007EA288 /* RSSItem.m */; };
+		1C8156B81317530300556234 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8156B71317530300556234 /* WebViewController.m */; };
+		1CF14D4B1317DEED0027579A /* ChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF14D4A1317DEED0027579A /* ChannelViewController.m */; };
+		1CF14D4E1317E6750027579A /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF14D4D1317E6750027579A /* ListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +26,23 @@
 		1C11591D1316FF1E007EA288 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C11591F1316FF1E007EA288 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C1159211316FF1E007EA288 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1C1159251316FF1E007EA288 /* Nerdfeed-Info.plist */ = {isa = PBXFileReference; path = "Nerdfeed-Info.plist"; sourceTree = "<group>"; };
+		1C1159251316FF1E007EA288 /* Nerdfeed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nerdfeed-Info.plist"; sourceTree = "<group>"; };
 		1C1159271316FF1E007EA288 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1C1159291316FF1E007EA288 /* Nerdfeed-Prefix.pch */ = {isa = PBXFileReference; path = "Nerdfeed-Prefix.pch"; sourceTree = "<group>"; };
+		1C1159291316FF1E007EA288 /* Nerdfeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nerdfeed-Prefix.pch"; sourceTree = "<group>"; };
 		1C11592A1316FF1E007EA288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C11592C1316FF1E007EA288 /* NerdfeedAppDelegate.h */ = {isa = PBXFileReference; path = NerdfeedAppDelegate.h; sourceTree = "<group>"; };
+		1C11592C1316FF1E007EA288 /* NerdfeedAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NerdfeedAppDelegate.h; sourceTree = "<group>"; };
 		1C11592D1316FF1E007EA288 /* NerdfeedAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdfeedAppDelegate.m; sourceTree = "<group>"; };
 		1C1159301316FF1E007EA288 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1C1159371316FF54007EA288 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = ../ListViewController.h; sourceTree = "<group>"; };
+		1C11593A13170BBE007EA288 /* RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSChannel.h; path = ../RSSChannel.h; sourceTree = "<group>"; };
+		1C11593B13170BBE007EA288 /* RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSChannel.m; path = ../RSSChannel.m; sourceTree = "<group>"; };
+		1C11593D131715DC007EA288 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSSItem.h; path = ../RSSItem.h; sourceTree = "<group>"; };
+		1C11593E131715DC007EA288 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSSItem.m; path = ../RSSItem.m; sourceTree = "<group>"; };
+		1C11594013173496007EA288 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
+		1C8156B71317530300556234 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = Nerdfeed.xcodeproj/WebViewController.m; sourceTree = "<group>"; };
+		1CF14D491317DEED0027579A /* ChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelViewController.h; sourceTree = "<group>"; };
+		1CF14D4A1317DEED0027579A /* ChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelViewController.m; sourceTree = "<group>"; };
+		1CF14D4D1317E6750027579A /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,9 @@
 		1C11590E1316FF1E007EA288 = {
 			isa = PBXGroup;
 			children = (
+				1CF14D491317DEED0027579A /* ChannelViewController.h */,
+				1CF14D4A1317DEED0027579A /* ChannelViewController.m */,
+				1C8156B71317530300556234 /* WebViewController.m */,
 				1C1159231316FF1E007EA288 /* Nerdfeed */,
 				1C11591C1316FF1E007EA288 /* Frameworks */,
 				1C11591A1316FF1E007EA288 /* Products */,
@@ -74,10 +92,17 @@
 		1C1159231316FF1E007EA288 /* Nerdfeed */ = {
 			isa = PBXGroup;
 			children = (
+				1C11594013173496007EA288 /* WebViewController.h */,
+				1C1159371316FF54007EA288 /* ListViewController.h */,
+				1C11593D131715DC007EA288 /* RSSItem.h */,
+				1C11593E131715DC007EA288 /* RSSItem.m */,
+				1C11593A13170BBE007EA288 /* RSSChannel.h */,
+				1C11593B13170BBE007EA288 /* RSSChannel.m */,
 				1C11592C1316FF1E007EA288 /* NerdfeedAppDelegate.h */,
 				1C11592D1316FF1E007EA288 /* NerdfeedAppDelegate.m */,
 				1C11592F1316FF1E007EA288 /* MainWindow.xib */,
 				1C1159241316FF1E007EA288 /* Supporting Files */,
+				1CF14D4D1317E6750027579A /* ListViewController.m */,
 			);
 			path = Nerdfeed;
 			sourceTree = "<group>";
@@ -157,6 +182,11 @@
 			files = (
 				1C11592B1316FF1E007EA288 /* main.m in Sources */,
 				1C11592E1316FF1E007EA288 /* NerdfeedAppDelegate.m in Sources */,
+				1C11593C13170BBE007EA288 /* RSSChannel.m in Sources */,
+				1C11593F131715DC007EA288 /* RSSItem.m in Sources */,
+				1C8156B81317530300556234 /* WebViewController.m in Sources */,
+				1CF14D4B1317DEED0027579A /* ChannelViewController.m in Sources */,
+				1CF14D4E1317E6750027579A /* ListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +256,7 @@
 				INFOPLIST_FILE = "Nerdfeed/Nerdfeed-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -240,6 +271,7 @@
 				INFOPLIST_FILE = "Nerdfeed/Nerdfeed-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,6 +296,7 @@
 				1C1159361316FF1E007EA288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

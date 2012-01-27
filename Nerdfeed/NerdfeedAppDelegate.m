@@ -7,6 +7,8 @@
 //
 
 #import "NerdfeedAppDelegate.h"
+#import "ListViewController.h"
+#import "WebViewController.h"
 
 @implementation NerdfeedAppDelegate
 
@@ -15,8 +17,37 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    ListViewController *lvc = [[ListViewController alloc] initWithStyle:UITableViewStylePlain];
+    [lvc autorelease];
+    
+    UINavigationController *masterNav =
+    [[UINavigationController alloc] initWithRootViewController:lvc];
+    [masterNav autorelease];
+    
+    WebViewController *wvc = [[[WebViewController alloc] init] autorelease];
+    [lvc setWebViewController:wvc];
+                              
+    if([[UIDevice currentDevice] userInterfaceIdiom] ==UIUserInterfaceIdiomPad) {
+        UINavigationController *detailNav = [[UINavigationController alloc] initWithRootViewController:wvc];
+        [detailNav autorelease];
+        
+        NSArray *vcs = [NSArray arrayWithObjects:masterNav,detailNav, nil];
+        UISplitViewController *svc = [[[UISplitViewController alloc] init] autorelease];
+        
+        [svc setDelegate:wvc];
+        
+        [svc setViewControllers:vcs];
+        
+        [[self window] setRootViewController:svc];
+        
+    } else {
+        [[self window] setRootViewController:masterNav];
+    }
+    
+    //[[self window] setRootViewController:masterNav];
+    
     // Override point for customization after application launch.
-    [self.window makeKeyAndVisible];
+    [[self window] makeKeyAndVisible];
     return YES;
 }
 
